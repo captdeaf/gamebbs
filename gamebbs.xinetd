@@ -1,0 +1,14 @@
+
+service telnet
+{
+  bind            = 69.90.211.61
+  socket_type     = stream
+  protocol        = tcp
+  wait            = no
+  user            = root
+  group           = root
+  server          = /usr/sbin/in.telnetd
+  server_args     = -h -L /home/nethack/gamebbs_launch
+  rlimit_cpu      = 86400
+}
+

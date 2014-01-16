@@ -1,0 +1,14 @@
+-npro -kr -ci2 -ss -psl -ip4 -i2 -cs -l80 -lc75
+-T ATRALIAS -T DESC -T CNode -T CONF -T BQUE -T FUN
+-T NVAL -T i_rec -T f_rec -T USERFN_ENTRY -T PRIV -T FLAG
+-T FLAGENT -T FLAG_ALIAS -T tlist -T u -T stat -T tcheck -T ATTR
+-T ALIST -T CHTAB -T FBLKHDR -T FBLOCK -T OPTTAB -T dbref
+-T object_flag_type -T channel_type -T boolexp_type -T CHAN
+-T mail_flag -T help_indx -T lock_type -T lock_list -T MEM
+-T warn_type -T POWER -T POWER_ALIAS -T acsflag -T StrTree
+-T switch_mask -T COMLIST -T COMALIAS -T COMMAND -T SWITCH_VALUE
+-T COMSORTSTRUC -T CHANUSER -T Signal_t -T Sigfunc -T univptr_t 
+-T __ptr_t -T __malloc_size_t -T HASHENT -T HASHTAB -T COMMAND_INFO
+-T CHANLIST -T Malloc_t -T Free_t -T MATH -T socklen_t
+-T StrNode -T IDENT -T Size_t -T Port_t -T help_file -T PTAB
+-T SHS_INFO -T ansi_string -T MAIL
